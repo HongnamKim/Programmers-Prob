@@ -1,3 +1,6 @@
+// https://school.programmers.co.kr/learn/courses/30/lessons/176963
+// 추억 점수
+
 const solution = (name, yearning, photos) => {
   let scoreTable = {};
   let score = new Array(photos.length).fill(0);

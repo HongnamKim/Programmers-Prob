@@ -1,3 +1,6 @@
+// https://school.programmers.co.kr/learn/courses/30/lessons/86491
+// 최소직사각형
+
 const solution = (sizes) => {
   let maxRow = 0,
     maxCol = 0;

@@ -1,3 +1,6 @@
+// https://school.programmers.co.kr/learn/courses/30/lessons/70128
+// 내적
+
 const solution = (a, b) => {
   let answer = 0;
   a.forEach((elem, index) => {

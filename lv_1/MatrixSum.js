@@ -1,3 +1,6 @@
+// https://school.programmers.co.kr/learn/courses/30/lessons/12950
+// 행렬의 덧셈
+
 const solution = (arr1, arr2) => {
   let answer = [];
   arr1.forEach((elem, i) => {

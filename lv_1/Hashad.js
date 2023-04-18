@@ -1,3 +1,6 @@
+// https://school.programmers.co.kr/learn/courses/30/lessons/12947
+// 하샤드 수
+
 const solution = (x) => {
   let nums = x.toString().split("");
   nums = nums.map((elem) => parseInt(elem));

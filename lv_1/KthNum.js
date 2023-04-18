@@ -1,3 +1,6 @@
+// https://school.programmers.co.kr/learn/courses/30/lessons/42748
+// K번째수
+
 const solution = (array, commands) => {
   let answer = [];
   commands.forEach((command) => {

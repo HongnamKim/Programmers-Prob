@@ -1,3 +1,6 @@
+// https://school.programmers.co.kr/learn/courses/30/lessons/12915
+// 문자열 내 마음대로 정렬하기
+
 const solution = (strings, n) => {
   const sortedStrings = strings.sort((a, b) => {
     let value = a[n].charCodeAt() - b[n].charCodeAt();

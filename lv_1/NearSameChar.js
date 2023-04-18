@@ -1,3 +1,6 @@
+// https://school.programmers.co.kr/learn/courses/30/lessons/142086
+// 가장 가까운 같은 글자
+
 const solution = (s) => {
   s = s.split("");
   let position = {};

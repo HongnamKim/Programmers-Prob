@@ -1,3 +1,6 @@
+// https://school.programmers.co.kr/learn/courses/30/lessons/131705
+// 삼총사
+
 const solution = (number) => {
   let answer = 0;
   const len = number.length;

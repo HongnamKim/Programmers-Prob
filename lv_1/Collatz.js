@@ -1,3 +1,6 @@
+// https://school.programmers.co.kr/learn/courses/30/lessons/12943
+// 콜라츠 추측
+
 const solution = (num) => {
   let answer = 0;
   i = 0;

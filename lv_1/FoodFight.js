@@ -1,3 +1,6 @@
+// https://school.programmers.co.kr/learn/courses/30/lessons/134240
+// 푸드 파이트 대회
+
 const solution = (food) => {
   let answer = [];
   let answerRev = [];

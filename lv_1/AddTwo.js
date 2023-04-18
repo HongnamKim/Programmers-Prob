@@ -1,3 +1,6 @@
+// https://school.programmers.co.kr/learn/courses/30/lessons/68644
+// 두 개 뽑아서 더하기
+
 const solution = (numbers) => {
   let answer = [];
   for (let i = 0; i < numbers.length - 1; i++) {

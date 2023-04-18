@@ -1,3 +1,6 @@
+// https://school.programmers.co.kr/learn/courses/30/lessons/17681
+// 비밀지도
+
 const solution = (n, arr1, arr2) => {
   let answer = [];
   for (let i = 0; i < n; i++) {

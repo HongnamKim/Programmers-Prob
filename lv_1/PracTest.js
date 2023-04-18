@@ -1,3 +1,6 @@
+// https://school.programmers.co.kr/learn/courses/30/lessons/42840
+// 모의고사
+
 const solution = (answer) => {
   let corrects = [0, 0, 0];
   let stuOne = [1, 2, 3, 4, 5]; // 5

@@ -1,3 +1,6 @@
+// https://school.programmers.co.kr/learn/courses/30/lessons/135808
+// 과일 장수
+
 const solution = (_, m, score) => {
   let answer = 0;
   const remain = score.length % m;

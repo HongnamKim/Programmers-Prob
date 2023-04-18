@@ -1,3 +1,6 @@
+// https://school.programmers.co.kr/learn/courses/30/lessons/132267
+// 콜라 문제
+
 const solution = (a, b, n) => {
   // a 개의 콜라로 b 개를 받음
   //n : 현재 단계에서 콜라 개수

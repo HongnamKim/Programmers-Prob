@@ -1,3 +1,6 @@
+// https://school.programmers.co.kr/learn/courses/30/lessons/12906
+// 같은 숫자는 싫어
+
 const solution = (arr) => {
   // stack의 마지막 요소와 현재 arr의 요소가 같은지 확인
   // 같다면 다음 요소 진행
