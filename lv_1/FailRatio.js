@@ -14,25 +14,11 @@ const solution = (N, stages) => {
 
   failRatio.sort((a, b) => b[1] - a[1]);
   return failRatio.map((elem) => elem[0]);
-  /*
-  let failRatioes = {};
-  failRatio.forEach((ratio, index) => (failRatioes[index + 1] = ratio));
-  //console.dir(failRatioes);
-  let sortRatio = [];
-  for (let stage in failRatio) {
-    sortRatio.push([+stage + 1, failRatio[stage]]);
-  }
-  sortRatio.sort((a, b) => b[1] - a[1]);
-  //console.dir(sortRatio);
-  const answer = sortRatio.map((elem) => elem[0]);
-  */
 };
 
 console.log(solution(5, [2, 1, 2, 6, 2, 4, 3, 3]));
 
 function getNumerator(N, stages) {
-  // stage  1  2  3  4  all
-  // stage [0, 0, 0, 0, 0]
   let numerator = new Array(N + 1).fill(0);
 
   let currentStage = stages[0];
