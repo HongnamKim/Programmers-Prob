@@ -1,3 +1,6 @@
+// https://school.programmers.co.kr/learn/courses/30/lessons/17682
+// 다트 게임
+
 const solution = (dartResult) => {
   let score = [];
   // 숫자만 추출
@@ -22,6 +25,7 @@ const solution = (dartResult) => {
   console.dir(nums);
   console.dir(chars);
 
+  // 점수 체크 부분 object로 대체하여 처리 속도 향상 가능
   nums.forEach((elem, index) => {
     score.push(elem);
     const char = chars[index].split("");
